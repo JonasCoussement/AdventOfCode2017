@@ -1,8 +1,5 @@
 def initial_setup():
     puzzle_input = open("Day2.txt").readlines()
-    puzzle_list = list()
-    for i in range(0,len(puzzle_input)):
-        puzzle_list.append(open("Day2.txt").readlines()[i])
     return puzzle_input
 
 def checksums(puzzle_input):
